@@ -1,0 +1,14 @@
+@keyframes starAni {
+  0% {
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+  }
+}
+
+.star {
+  opacity: 100%;
+  animation: starAni 5s infinite;
+}

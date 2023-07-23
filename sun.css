@@ -1,0 +1,25 @@
+@keyframes sunAni {
+  0% {
+    transform: translate(100px, 250px) scale(0);
+
+    fill: white;
+  }
+  25% {
+    fill: yellow;
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+    fill: #f06457;
+  }
+  75% {
+    fill: yellow;
+  }
+  100% {
+    transform: translate(900px, 250px) scale(0);
+    fill: white;
+  }
+}
+
+.sun {
+  animation: sunAni 5s infinite;
+}

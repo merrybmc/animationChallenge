@@ -1,0 +1,10 @@
+@keyframes sunGlassAni {
+  to {
+    transform: translate(0, -200px);
+  }
+}
+
+.sunGlass:hover {
+  /* transform: translate(0, -50px); */
+  animation: sunGlassAni 10s infinite alternate forwards;
+}

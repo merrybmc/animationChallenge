@@ -1,0 +1,15 @@
+@keyframes bodyAni {
+  0% {
+    transform: translateX(-10px) rotate(1deg);
+    transform-origin: right top;
+  }
+
+  100% {
+    transform: translateX(10px) rotate();
+    transform-origin: right top;
+  }
+}
+
+.body {
+  animation: bodyAni 2s infinite alternate;
+}

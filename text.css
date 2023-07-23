@@ -1,0 +1,18 @@
+@keyframes textANi {
+  0% {
+    transform: translate(500px, 20px);
+    fill: white;
+  }
+  50% {
+    transform: translate(0);
+    fill: black;
+  }
+  100% {
+    transform: translate(500px, 20px);
+    fill: white;
+  }
+}
+
+.text {
+  animation: textANi 5s infinite;
+}

@@ -1,0 +1,16 @@
+@keyframes lightAni {
+  0% {
+    transform-origin: center center;
+    fill: white;
+  }
+  100% {
+    transform-origin: center center;
+    /* transform: scale(1.2); */
+    fill: #fee8b6;
+  }
+}
+
+.leftLight,
+.rightLight {
+  animation: lightAni 0.2s infinite alternate;
+}

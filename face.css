@@ -1,0 +1,42 @@
+@keyframes faceAni {
+  50% {
+    transform: rotateX(-5deg) rotateY(-5deg);
+    /* transform: translate(-10px, 10px); */
+  }
+  100% {
+  }
+}
+
+.face,
+.sunGlass {
+  animation: faceAni 1s infinite alternate;
+  cursor: pointer;
+}
+
+.face:hover + .sunGlass {
+  visibility: hidden;
+}
+
+@keyframes eyeBrowAni {
+  to {
+    transform: translateY(2px);
+  }
+}
+
+.eyeBrow {
+  animation: eyeBrowAni 0.6s infinite alternate;
+}
+
+@keyframes glowAni {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.glow {
+  /* opacity: 0%; */
+  animation: glowAni 1s infinite alternate;
+}

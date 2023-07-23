@@ -1,0 +1,18 @@
+/* style="fill: #fce8b3;"  */
+
+@keyframes backgroundAni {
+  0% {
+    fill: #312f2e;
+  }
+  50% {
+    fill: #fce8b3;
+  }
+
+  100% {
+    fill: #312f2e;
+  }
+}
+
+.background {
+  animation: backgroundAni 5s infinite;
+}

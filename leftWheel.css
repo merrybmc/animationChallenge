@@ -1,0 +1,17 @@
+@keyframes leftWheel-Ani {
+  0% {
+    stroke-dasharray: 5;
+  }
+  100% {
+    stroke-dasharray: 8;
+  }
+}
+
+.leftWheel,
+.rightWheel,
+.rightRightWheel {
+  stroke: white;
+  stroke-width: 1px;
+  stroke-dasharray: 8;
+  animation: leftWheel-Ani 0.1s infinite;
+}
